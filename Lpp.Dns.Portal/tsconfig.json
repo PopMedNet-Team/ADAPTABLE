@@ -1,0 +1,9 @@
+{
+  "extends": "../Build/baseTSConfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "moment": [ "node_modules/moment/moment" ] // This mapping is relative to "baseUrl"
+    }
+  }
+}
